@@ -342,5 +342,5 @@ if __name__ == "__main__":
         start()
     except KeyboardInterrupt:
         print("explore interrupted by user..")
-    # except BaseException:
-        # sys.exit()
+    except BaseException:
+        sys.exit()
